@@ -1,0 +1,212 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.33.jar -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/student_01_1910f6d20ada/.codeoss/data/User/globalStorage/redhat.java/1.32.2024061908/config_ss_linux -data /home/student_01_1910f6d20ada/.codeoss/data/User/workspaceStorage/160d4512/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:27.413'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:27.748'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/student_01_1910f6d20ada/.codeoss/data/User/workspaceStorage/160d4512/redhat.java -Daether.dependencyCollector.impl=bf -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/student_01_1910f6d20ada/.codeoss/data/User/globalStorage/redhat.java/1.32.2024061908/config_linux -data /home/student_01_1910f6d20ada/.codeoss/data/User/workspaceStorage/160d4512/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:27.815'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:28.360'
+}
+{
+  message: 'Oct 12, 2024 9:02:32 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:32.889'
+}
+{
+  message: 'Oct 12, 2024 9:02:32 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:02:32.897'
+}
+{ level: 'error', timestamp: '2024-10-12 09:03:41.704' }
+{
+  message: 'Oct 12, 2024 9:04:14 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:04:14.096'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 80, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2024-10-12 09:05:26.972'
+}
+{
+  message: 'Oct 12, 2024 9:06:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 206\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:06:57.586'
+}
+{
+  message: 'configuration.updateBuildConfiguration set to automatic',
+  level: 'info',
+  timestamp: '2024-10-12 09:08:32.673'
+}
+{
+  message: '[Error - 9:09:41 AM] Oct 12, 2024, 9:09:41 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-10-12 09:09:41.450'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 333, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2024-10-12 09:09:44.862'
+}
+{
+  message: 'Oct 12, 2024 9:10:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 362\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:10:01.985'
+}
+{
+  message: '[Error - 9:10:06 AM] Oct 12, 2024, 9:10:06 AM JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project\n' +
+    "'16aB' is not a valid Java identifier\n" +
+    "Java Model Exception: Error in Java Model (code -1): '16aB' is not a valid Java identifier\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)\n' +
+    '\tat org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)\n' +
+    '\tat org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:10:06.806'
+}
+{
+  message: 'Oct 12, 2024 9:10:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 428\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:10:54.150'
+}
+{
+  message: 'Oct 12, 2024 9:11:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError\n' +
+    'SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null\n' +
+    'java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:840)\n' +
+    'Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getParent(ASTNodes.java:2518)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getTypeBinding(ASTNodes.java:3908)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.supportsHashCodeEquals(SourceAssistProcessor.java:448)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:193)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:237)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:753)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\t... 2 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:06.966'
+}
+{
+  message: '[Error - 9:11:06 AM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:06.969'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:840)\n' +
+    'Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getParent(ASTNodes.java:2518)\n' +
+    '\tat org.eclipse.jdt.internal.corext.dom.ASTNodes.getTypeBinding(ASTNodes.java:3908)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.supportsHashCodeEquals(SourceAssistProcessor.java:448)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:193)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:237)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:753)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\t... 2 more\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:06.970'
+}
+{
+  message: 'Oct 12, 2024 9:11:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError\n' +
+    'SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null\n' +
+    'java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:840)\n' +
+    'Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:391)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:237)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:753)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\t... 2 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:29.212'
+}
+{
+  message: '[Error - 9:11:29 AM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:29.216'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:840)\n' +
+    'Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.accept(org.eclipse.jdt.core.dom.ASTVisitor)" because "coveringNode" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.QuickAssistProcessor.getFullyCoveredNodes(QuickAssistProcessor.java:391)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:123)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:237)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:753)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\t... 2 more\n',
+  level: 'info',
+  timestamp: '2024-10-12 09:11:29.216'
+}
